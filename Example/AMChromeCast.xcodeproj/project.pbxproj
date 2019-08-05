@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21D69D8B61707A9BBD27A0C4 /* AMChromeCast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AMChromeCast.podspec; path = ../AMChromeCast.podspec; sourceTree = "<group>"; };
+		21D69D8B61707A9BBD27A0C4 /* AMChromeCast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMChromeCast.podspec; path = ../AMChromeCast.podspec; sourceTree = "<group>"; };
 		2FCB5ECD35AD4057E7FF6FC1 /* Pods-AMChromeCast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Tests.release.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D91734DC33ED48E71D97DDB /* Pods-AMChromeCast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Example.release.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4AACA372720211463791BF42 /* Pods-AMChromeCast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Example.debug.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* AMChromeCast_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMChromeCast_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		694B4CE7C1BCC7529CBB054A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		694B4CE7C1BCC7529CBB054A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B867595BC3C9855690485219 /* Pods_AMChromeCast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMChromeCast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6BC8107A1A1EE98BB6315C7 /* Pods-AMChromeCast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E72928B56CB6348AB59DE35E /* Pods_AMChromeCast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMChromeCast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE7B56FC0792E18899FE633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDE7B56FC0792E18899FE633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				D6BC8107A1A1EE98BB6315C7 /* Pods-AMChromeCast_Tests.debug.xcconfig */,
 				2FCB5ECD35AD4057E7FF6FC1 /* Pods-AMChromeCast_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for AMChromeCast */,
+				607FACD21AFB9204008FA782 /* AMChromeCast */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				45B96DFEA064ABBD9DA54029 /* Pods */,
@@ -102,7 +101,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for AMChromeCast */ = {
+		607FACD21AFB9204008FA782 /* AMChromeCast */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -112,7 +111,6 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for AMChromeCast";
 			path = AMChromeCast;
 			sourceTree = "<group>";
 		};
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

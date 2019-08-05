@@ -1,0 +1,16 @@
+PODS:
+  - AMChromeCast (0.1.0)
+
+DEPENDENCIES:
+  - AMChromeCast (from `../`)
+
+EXTERNAL SOURCES:
+  AMChromeCast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMChromeCast: 2e306acfdfff3a05657ebb5d667365f9b1347949
+
+PODFILE CHECKSUM: 839f95bbf09ec1b1ec5b39b320f7e38ae12b7830
+
+COCOAPODS: 1.7.5

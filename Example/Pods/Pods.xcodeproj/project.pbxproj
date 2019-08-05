@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082075A553574DA4EFB965E7AE9CDA17 /* Pods-AMChromeCast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F688C8ACBE6906436DBCCD24ACF8CE4E /* Pods-AMChromeCast_Example-dummy.m */; };
+		34ABD012D2E325F059DC1349EC7B7AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		370EF4C318BDB55938321E8DD1234F97 /* Pods-AMChromeCast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4498C66FCD958314A62E323157F7D86 /* Pods-AMChromeCast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA89272B53B4CF7845294741EFF0B95 /* Pods-AMChromeCast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 094AEFF9D6B150989D745E52EEE0D92A /* Pods-AMChromeCast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC482974249C0FB2CC4781D142907A66 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AD705BA109BC61DB7C49B01FB1859A /* ReplaceMe.swift */; };
+		D7744482DC11177B6182905AF6F57BAD /* AMChromeCast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57955F11037D404DE87D876E9EFFB68D /* AMChromeCast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D2650FA706EEC4705C3E61F42C4675 /* Pods-AMChromeCast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F0CC94CA6E84C0973F471354B57929 /* Pods-AMChromeCast_Tests-dummy.m */; };
+		E058791C81BAA6AA47E9ADF61CD1FECE /* AMChromeCast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3D8002F8B46DF24426D845B7D84D /* AMChromeCast-dummy.m */; };
+		F6C08DE52D746FB1DFF1836EF052F328 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F95065F394BB4184C613AEF872BE4BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98C9140776F48B85BCC5E42CE8B8ED1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A1F2D9846FF8C575D539646D123C3B;
+			remoteInfo = AMChromeCast;
+		};
+		DB126AD7370082971E6810B64F521913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FF810A24184D666FB05C9A5F3ACD7C;
+			remoteInfo = "Pods-AMChromeCast_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0874E17E6B6B4889AD6BECE5EF7110F0 /* AMChromeCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMChromeCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		094AEFF9D6B150989D745E52EEE0D92A /* Pods-AMChromeCast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMChromeCast_Example-umbrella.h"; sourceTree = "<group>"; };
+		0E65D65A72DA5FE47F3E2E85B12CC5C5 /* Pods-AMChromeCast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMChromeCast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17F0CC94CA6E84C0973F471354B57929 /* Pods-AMChromeCast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMChromeCast_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FF5525DEA2C43D39D7A668B6FD1026C /* AMChromeCast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChromeCast-prefix.pch"; sourceTree = "<group>"; };
+		2E165B45B7DBC4441F87189976A327E6 /* Pods-AMChromeCast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMChromeCast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AC5C33052CD2D89EB7B420F7ED4634E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4391F104C4DA07E98272D553D91647E0 /* Pods-AMChromeCast_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMChromeCast_Example-Info.plist"; sourceTree = "<group>"; };
+		447D905E4394EC4A5E92A5D7D0615DA0 /* AMChromeCast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AMChromeCast.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		48F6872E1A75B5B7FFFF2497DE795640 /* Pods-AMChromeCast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMChromeCast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4F9526313F7B066899B04FA713420ABB /* Pods-AMChromeCast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMChromeCast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57955F11037D404DE87D876E9EFFB68D /* AMChromeCast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChromeCast-umbrella.h"; sourceTree = "<group>"; };
+		69AD705BA109BC61DB7C49B01FB1859A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AMChromeCast/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6C00313340CC02D59B796929698FB620 /* Pods-AMChromeCast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMChromeCast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B388E0CE4AEF22CBE68B738CE818B56 /* Pods-AMChromeCast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMChromeCast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1FAF0AA11CAA6968A6FA696ECCA5A3 /* Pods_AMChromeCast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMChromeCast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819B0A8256C471B19544949E68AB437F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8AC024FE54B478478A1181ADECA2450D /* AMChromeCast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMChromeCast.xcconfig; sourceTree = "<group>"; };
+		940F6F395B5BB52254437105BCC886D3 /* Pods-AMChromeCast_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMChromeCast_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C12893CEE426CB34B2DAD22BDD4D3727 /* AMChromeCast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMChromeCast.modulemap; sourceTree = "<group>"; };
+		DB1BFEF096F40DBEB9EC1EEC6AF3F16E /* Pods-AMChromeCast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMChromeCast_Example.modulemap"; sourceTree = "<group>"; };
+		DDBE3D8002F8B46DF24426D845B7D84D /* AMChromeCast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMChromeCast-dummy.m"; sourceTree = "<group>"; };
+		E6422F6892C43C5CD1A5A9B605ABC973 /* Pods-AMChromeCast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMChromeCast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7E6BE0E40807735AE093B03B21647CD /* AMChromeCast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMChromeCast-Info.plist"; sourceTree = "<group>"; };
+		ED4D36371D711C375354245F22A6E28E /* Pods_AMChromeCast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMChromeCast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F2F0C27C741E68A4C6DC8310A9ED48 /* Pods-AMChromeCast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMChromeCast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4498C66FCD958314A62E323157F7D86 /* Pods-AMChromeCast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMChromeCast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F688C8ACBE6906436DBCCD24ACF8CE4E /* Pods-AMChromeCast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMChromeCast_Example-dummy.m"; sourceTree = "<group>"; };
+		F974FA5A92EC3BD116A74314919F3CCA /* Pods-AMChromeCast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMChromeCast_Tests.modulemap"; sourceTree = "<group>"; };
+		FFED457D9A7A328AB4D5A8B21CD7B1BD /* Pods-AMChromeCast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMChromeCast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07EEE33A20907964202D599EC706EBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C08DE52D746FB1DFF1836EF052F328 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB2EA8BBBFCD2D69F6BD73E85FFB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95065F394BB4184C613AEF872BE4BD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F52B84A2A4E9E3E5FBABACF77B09F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ABD012D2E325F059DC1349EC7B7AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047E38185A89D74962CE31BBB8822C69 /* Pods-AMChromeCast_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DB1BFEF096F40DBEB9EC1EEC6AF3F16E /* Pods-AMChromeCast_Example.modulemap */,
+				FFED457D9A7A328AB4D5A8B21CD7B1BD /* Pods-AMChromeCast_Example-acknowledgements.markdown */,
+				E6422F6892C43C5CD1A5A9B605ABC973 /* Pods-AMChromeCast_Example-acknowledgements.plist */,
+				F688C8ACBE6906436DBCCD24ACF8CE4E /* Pods-AMChromeCast_Example-dummy.m */,
+				48F6872E1A75B5B7FFFF2497DE795640 /* Pods-AMChromeCast_Example-frameworks.sh */,
+				4391F104C4DA07E98272D553D91647E0 /* Pods-AMChromeCast_Example-Info.plist */,
+				094AEFF9D6B150989D745E52EEE0D92A /* Pods-AMChromeCast_Example-umbrella.h */,
+				6C00313340CC02D59B796929698FB620 /* Pods-AMChromeCast_Example.debug.xcconfig */,
+				2E165B45B7DBC4441F87189976A327E6 /* Pods-AMChromeCast_Example.release.xcconfig */,
+			);
+			name = "Pods-AMChromeCast_Example";
+			path = "Target Support Files/Pods-AMChromeCast_Example";
+			sourceTree = "<group>";
+		};
+		0CBE6A1180B546A46E85F8DBBBDFA3B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A456EA0C78B7493C3D11C0D4C6BA1C47 /* AMChromeCast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		250A9F0B941F419DCE2CBD38CFB041A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0874E17E6B6B4889AD6BECE5EF7110F0 /* AMChromeCast.framework */,
+				ED4D36371D711C375354245F22A6E28E /* Pods_AMChromeCast_Example.framework */,
+				7F1FAF0AA11CAA6968A6FA696ECCA5A3 /* Pods_AMChromeCast_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB6B5A34BD10FAB8781F6E009D7C16F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				447D905E4394EC4A5E92A5D7D0615DA0 /* AMChromeCast.podspec */,
+				3AC5C33052CD2D89EB7B420F7ED4634E /* LICENSE */,
+				819B0A8256C471B19544949E68AB437F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		83432168347C5660C97E66DB65F1ECDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12893CEE426CB34B2DAD22BDD4D3727 /* AMChromeCast.modulemap */,
+				8AC024FE54B478478A1181ADECA2450D /* AMChromeCast.xcconfig */,
+				DDBE3D8002F8B46DF24426D845B7D84D /* AMChromeCast-dummy.m */,
+				E7E6BE0E40807735AE093B03B21647CD /* AMChromeCast-Info.plist */,
+				1FF5525DEA2C43D39D7A668B6FD1026C /* AMChromeCast-prefix.pch */,
+				57955F11037D404DE87D876E9EFFB68D /* AMChromeCast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMChromeCast";
+			sourceTree = "<group>";
+		};
+		863F6ED4DFA12585BF7BBF1C6285B97C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				047E38185A89D74962CE31BBB8822C69 /* Pods-AMChromeCast_Example */,
+				8C5BC89562455D76BEED9595AB21CC83 /* Pods-AMChromeCast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C5BC89562455D76BEED9595AB21CC83 /* Pods-AMChromeCast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F974FA5A92EC3BD116A74314919F3CCA /* Pods-AMChromeCast_Tests.modulemap */,
+				0E65D65A72DA5FE47F3E2E85B12CC5C5 /* Pods-AMChromeCast_Tests-acknowledgements.markdown */,
+				F0F2F0C27C741E68A4C6DC8310A9ED48 /* Pods-AMChromeCast_Tests-acknowledgements.plist */,
+				17F0CC94CA6E84C0973F471354B57929 /* Pods-AMChromeCast_Tests-dummy.m */,
+				940F6F395B5BB52254437105BCC886D3 /* Pods-AMChromeCast_Tests-Info.plist */,
+				F4498C66FCD958314A62E323157F7D86 /* Pods-AMChromeCast_Tests-umbrella.h */,
+				4F9526313F7B066899B04FA713420ABB /* Pods-AMChromeCast_Tests.debug.xcconfig */,
+				7B388E0CE4AEF22CBE68B738CE818B56 /* Pods-AMChromeCast_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMChromeCast_Tests";
+			path = "Target Support Files/Pods-AMChromeCast_Tests";
+			sourceTree = "<group>";
+		};
+		A456EA0C78B7493C3D11C0D4C6BA1C47 /* AMChromeCast */ = {
+			isa = PBXGroup;
+			children = (
+				69AD705BA109BC61DB7C49B01FB1859A /* ReplaceMe.swift */,
+				5BB6B5A34BD10FAB8781F6E009D7C16F /* Pod */,
+				83432168347C5660C97E66DB65F1ECDE /* Support Files */,
+			);
+			name = AMChromeCast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0CBE6A1180B546A46E85F8DBBBDFA3B1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				250A9F0B941F419DCE2CBD38CFB041A4 /* Products */,
+				863F6ED4DFA12585BF7BBF1C6285B97C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08089E64E63B7528E4F02123CFD811E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370EF4C318BDB55938321E8DD1234F97 /* Pods-AMChromeCast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC52679293E657877A7BDF90381B8D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7744482DC11177B6182905AF6F57BAD /* AMChromeCast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB2FA285E40E80885CF9EA7D4352877 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA89272B53B4CF7845294741EFF0B95 /* Pods-AMChromeCast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05FF810A24184D666FB05C9A5F3ACD7C /* Pods-AMChromeCast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868622AAFCE0786BD65740DF1F471922 /* Build configuration list for PBXNativeTarget "Pods-AMChromeCast_Example" */;
+			buildPhases = (
+				ADB2FA285E40E80885CF9EA7D4352877 /* Headers */,
+				14FD536DF893DA1811C4AD8192B5E7D3 /* Sources */,
+				37CB2EA8BBBFCD2D69F6BD73E85FFB29 /* Frameworks */,
+				08079EBEB943B8E7025A5186E3D632E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB068DC8EF934E478C5CFE7FFA894721 /* PBXTargetDependency */,
+			);
+			name = "Pods-AMChromeCast_Example";
+			productName = "Pods-AMChromeCast_Example";
+			productReference = ED4D36371D711C375354245F22A6E28E /* Pods_AMChromeCast_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E586772C487248A2E2AB3EBD049B52E /* Pods-AMChromeCast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C0C89DB9156754A37325AACFF76882 /* Build configuration list for PBXNativeTarget "Pods-AMChromeCast_Tests" */;
+			buildPhases = (
+				08089E64E63B7528E4F02123CFD811E1 /* Headers */,
+				433539448D97182EDF9DA6C478E926A4 /* Sources */,
+				B1F52B84A2A4E9E3E5FBABACF77B09F1 /* Frameworks */,
+				11592F85AE8989A765C90F9FD30FEBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8617F64ED04F773C7B82E9234B0D74BE /* PBXTargetDependency */,
+			);
+			name = "Pods-AMChromeCast_Tests";
+			productName = "Pods-AMChromeCast_Tests";
+			productReference = 7F1FAF0AA11CAA6968A6FA696ECCA5A3 /* Pods_AMChromeCast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7A1F2D9846FF8C575D539646D123C3B /* AMChromeCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2530C3E82BB5C66FA2CB1F05BC2479BB /* Build configuration list for PBXNativeTarget "AMChromeCast" */;
+			buildPhases = (
+				5EC52679293E657877A7BDF90381B8D2 /* Headers */,
+				8C4ED3B8CBC91E95020393A6C8942427 /* Sources */,
+				07EEE33A20907964202D599EC706EBB9 /* Frameworks */,
+				9A1931CDB64D24FDAEB495398F17B71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMChromeCast;
+			productName = AMChromeCast;
+			productReference = 0874E17E6B6B4889AD6BECE5EF7110F0 /* AMChromeCast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 250A9F0B941F419DCE2CBD38CFB041A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A1F2D9846FF8C575D539646D123C3B /* AMChromeCast */,
+				05FF810A24184D666FB05C9A5F3ACD7C /* Pods-AMChromeCast_Example */,
+				3E586772C487248A2E2AB3EBD049B52E /* Pods-AMChromeCast_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08079EBEB943B8E7025A5186E3D632E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11592F85AE8989A765C90F9FD30FEBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1931CDB64D24FDAEB495398F17B71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14FD536DF893DA1811C4AD8192B5E7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082075A553574DA4EFB965E7AE9CDA17 /* Pods-AMChromeCast_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433539448D97182EDF9DA6C478E926A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D2650FA706EEC4705C3E61F42C4675 /* Pods-AMChromeCast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4ED3B8CBC91E95020393A6C8942427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E058791C81BAA6AA47E9ADF61CD1FECE /* AMChromeCast-dummy.m in Sources */,
+				CC482974249C0FB2CC4781D142907A66 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8617F64ED04F773C7B82E9234B0D74BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AMChromeCast_Example";
+			target = 05FF810A24184D666FB05C9A5F3ACD7C /* Pods-AMChromeCast_Example */;
+			targetProxy = DB126AD7370082971E6810B64F521913 /* PBXContainerItemProxy */;
+		};
+		EB068DC8EF934E478C5CFE7FFA894721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMChromeCast;
+			target = A7A1F2D9846FF8C575D539646D123C3B /* AMChromeCast */;
+			targetProxy = 98C9140776F48B85BCC5E42CE8B8ED1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		287328EED8881EEA2DA958B0F4D9718D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E165B45B7DBC4441F87189976A327E6 /* Pods-AMChromeCast_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E32D9A23993D3E9CF263CA88FACA6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC024FE54B478478A1181ADECA2450D /* AMChromeCast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMChromeCast/AMChromeCast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMChromeCast/AMChromeCast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMChromeCast/AMChromeCast.modulemap";
+				PRODUCT_MODULE_NAME = AMChromeCast;
+				PRODUCT_NAME = AMChromeCast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A68A0B314D9B5B910737696F945FF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC024FE54B478478A1181ADECA2450D /* AMChromeCast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMChromeCast/AMChromeCast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMChromeCast/AMChromeCast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMChromeCast/AMChromeCast.modulemap";
+				PRODUCT_MODULE_NAME = AMChromeCast;
+				PRODUCT_NAME = AMChromeCast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAABC45767AF14B7F24796FC1FF478D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C00313340CC02D59B796929698FB620 /* Pods-AMChromeCast_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D521B7EECFC45A6E3489E576FA89C87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9526313F7B066899B04FA713420ABB /* Pods-AMChromeCast_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5DEF5B2B9DA6C03DD04CEC25BB7AE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B388E0CE4AEF22CBE68B738CE818B56 /* Pods-AMChromeCast_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2530C3E82BB5C66FA2CB1F05BC2479BB /* Build configuration list for PBXNativeTarget "AMChromeCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A68A0B314D9B5B910737696F945FF98 /* Debug */,
+				6E32D9A23993D3E9CF263CA88FACA6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868622AAFCE0786BD65740DF1F471922 /* Build configuration list for PBXNativeTarget "Pods-AMChromeCast_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABC45767AF14B7F24796FC1FF478D4 /* Debug */,
+				287328EED8881EEA2DA958B0F4D9718D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C0C89DB9156754A37325AACFF76882 /* Build configuration list for PBXNativeTarget "Pods-AMChromeCast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D521B7EECFC45A6E3489E576FA89C87C /* Debug */,
+				E5DEF5B2B9DA6C03DD04CEC25BB7AE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
