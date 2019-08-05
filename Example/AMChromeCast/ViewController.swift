@@ -20,6 +20,10 @@ public class ViewController: UIViewController {
     public func setNewFrame(frame : CGRect){
         
     }
+    public func getValueFormChromeCast (frame : CGRect)
+    {
+        
+    }
    
     
    
