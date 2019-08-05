@@ -13,7 +13,6 @@
 		34ABD012D2E325F059DC1349EC7B7AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
 		370EF4C318BDB55938321E8DD1234F97 /* Pods-AMChromeCast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4498C66FCD958314A62E323157F7D86 /* Pods-AMChromeCast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5180DBD77D7ABA156FB0DFCBF0C7DE44 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */; };
-		697BCBC322F83D6A00B2925D /* AMChromeCastHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BCBC222F83D6A00B2925D /* AMChromeCastHelper.swift */; };
 		758DB4A340170AD5DA350EC69008E63C /* AMChromeCast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E3D8182CB2F72127D8730C15852FE6 /* AMChromeCast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76E67EDF9E50AE70390156C09B0700BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09345EDE7DE5008D42321AFB4651D22B /* ViewController.swift */; };
 		7D9363DE697D341B21C6E009810D8DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E02881C1FAF5A8EAA5607C8A7DFD4A /* AppDelegate.swift */; };
@@ -57,7 +56,6 @@
 		52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		697BCBC222F83D6A00B2925D /* AMChromeCastHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AMChromeCastHelper.swift; path = AMChromeCast/Classes/AMChromeCastHelper.swift; sourceTree = "<group>"; };
 		6C00313340CC02D59B796929698FB620 /* Pods-AMChromeCast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMChromeCast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7393BB27BAE49FE0AE73CFFFCF508BC9 /* AMChromeCast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChromeCast-prefix.pch"; sourceTree = "<group>"; };
 		77203A44DB4C0F0244A73388119ABA63 /* AMChromeCast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMChromeCast.modulemap; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 				09345EDE7DE5008D42321AFB4651D22B /* ViewController.swift */,
 				8A41E5E61E6448B2AA394F3E2E0F71E7 /* Pod */,
 				90CFA8B8F82A666D763292A34B935E5D /* Support Files */,
-				697BCBC222F83D6A00B2925D /* AMChromeCastHelper.swift */,
 			);
 			name = AMChromeCast;
 			path = ../..;
@@ -396,7 +393,6 @@
 			files = (
 				31DEABDC01B370E0F27F2FFAFB7447C5 /* AMChromeCast-dummy.m in Sources */,
 				7D9363DE697D341B21C6E009810D8DDD /* AppDelegate.swift in Sources */,
-				697BCBC322F83D6A00B2925D /* AMChromeCastHelper.swift in Sources */,
 				76E67EDF9E50AE70390156C09B0700BC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

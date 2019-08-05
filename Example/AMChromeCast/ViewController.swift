@@ -16,6 +16,10 @@ public class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
+    
+    public func setNewFrame(frame : CGRect){
+        
+    }
    
     
    
