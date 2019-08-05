@@ -1,5 +1,5 @@
 PODS:
-  - AMChromeCast (0.1.0)
+  - AMChromeCast (0.3.0)
 
 DEPENDENCIES:
   - AMChromeCast (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMChromeCast: 2e306acfdfff3a05657ebb5d667365f9b1347949
+  AMChromeCast: d898d0515874105b3c5b6b902fac813209cb4ea0
 
 PODFILE CHECKSUM: 839f95bbf09ec1b1ec5b39b320f7e38ae12b7830
 

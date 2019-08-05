@@ -1,22 +1,27 @@
 {
   "name": "AMChromeCast",
-  "version": "0.1.0",
-  "summary": "A short description of AMChromeCast.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sarath.yarra1300@gmail.com/AMChromeCast",
+  "version": "0.3.0",
+  "summary": "Wrapper class to handle chrome cast behaviour on iOS.",
+  "homepage": "https://github.com/sarathyarra1300/AMChromeCast",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "type": "MIT"
   },
   "authors": {
-    "sarath.yarra1300@gmail.com": "sarath.yarra1300@gmail.com"
-  },
-  "source": {
-    "git": "https://github.com/sarath.yarra1300@gmail.com/AMChromeCast.git",
-    "tag": "0.1.0"
+    "sarathyarra1300": "sarath.yarra1300@gmail.com"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AMChromeCast/Classes/**/*"
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/sarathyarra1300/AMChromeCast.git",
+    "tag": "0.3.0"
+  },
+  "source_files": "Example/AMChromeCast/*.swift",
+  "swift_versions": "5.0",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "swift_version": "5.0"
 }

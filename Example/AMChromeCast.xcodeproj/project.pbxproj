@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21D69D8B61707A9BBD27A0C4 /* AMChromeCast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMChromeCast.podspec; path = ../AMChromeCast.podspec; sourceTree = "<group>"; };
+		21D69D8B61707A9BBD27A0C4 /* AMChromeCast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMChromeCast.podspec; path = ../AMChromeCast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FCB5ECD35AD4057E7FF6FC1 /* Pods-AMChromeCast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Tests.release.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Tests/Pods-AMChromeCast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D91734DC33ED48E71D97DDB /* Pods-AMChromeCast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Example.release.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4AACA372720211463791BF42 /* Pods-AMChromeCast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMChromeCast_Example.debug.xcconfig"; path = "Target Support Files/Pods-AMChromeCast_Example/Pods-AMChromeCast_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -211,6 +211,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TFWK53TA9L;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -477,6 +478,7 @@
 			baseConfigurationReference = 4AACA372720211463791BF42 /* Pods-AMChromeCast_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TFWK53TA9L;
 				INFOPLIST_FILE = AMChromeCast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -492,6 +494,7 @@
 			baseConfigurationReference = 3D91734DC33ED48E71D97DDB /* Pods-AMChromeCast_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TFWK53TA9L;
 				INFOPLIST_FILE = AMChromeCast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

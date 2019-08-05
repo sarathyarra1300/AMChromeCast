@@ -7,6 +7,11 @@
 
 import UIKit
 
-class AMChromeCastHelper: NSObject {
+public class AMChromeCastHelper: NSObject {
+  public func setTheFrame()
+  {
+    
+  }
+
 
 }
